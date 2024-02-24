@@ -1,0 +1,16 @@
+.countries-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.country {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.country img {
+    max-width: 100%;
+    height: auto;
+}
